@@ -1,0 +1,45 @@
+body {
+    background-color: #0f0f0f;
+}
+
+main > a > h1 {
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: white;
+}
+span {
+
+    background-color: #522e2c;
+    ;
+
+}
+
+pre {
+    color: white;
+}
+h2 {
+background-color: #522e2c;
+;
+    color: #cbc18f;
+}
+
+h3 {
+
+    background-color: yellow;
+    color: black;
+
+}
+
+ul {
+
+    
+    color:black;
+
+}
+li {
+
+    color: white;
+}
