@@ -10,7 +10,7 @@ main > a > h1 {
 a {
     color: white;
 }
-span {
+main > span {
 
     background-color: #522e2c;
     ;
@@ -28,7 +28,8 @@ background-color: #522e2c;
 
 h3 {
 
-    background-color: yellow;
+    
+    background-color: #cbc18f ;
     color: black;
 
 }
@@ -43,3 +44,4 @@ li {
 
     color: white;
 }
+

@@ -8,11 +8,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/jpg" href="favicon.jpg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
 </head>
 
 <body>
     <header></header>
-    <nav></nav>
+    <nav>
+        
+    </nav>
     <main>
         <a href="https://2e.aonprd.com/PlayersGuide.aspx">
             <h1> New to pathfinder 2e? click here </h1>
@@ -87,5 +90,17 @@ way. Please enjoy the newly remastered Archives of Nethys!
     <footer></footer>
 
 </body>
+
+<script>
+
+let btn=document.querySelector('btn');
+let sidebar = document.querySelector('.sidebar');
+
+btn.onclick = function () {
+
+    sidebar.classlist.toggle ('active');
+};
+
+</script>
 
 </html>
