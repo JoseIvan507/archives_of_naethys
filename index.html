@@ -14,6 +14,75 @@
 <body>
     <header></header>
     <nav>
+<div class="sidebar">
+<div class="top">
+
+    <div class="logo">
+        <img src="logo.png" id="btn">
+        <div class="usser"></div>
+    </div>
+   
+</div>
+<ul>
+    <li>
+
+        <a href="#"></a>
+        <img src="FaSolidMale (1).png" width="10px">
+        <span class="nav-item">CHARACTER CREATION</span>
+
+    </li>
+
+    <li>
+        <a href="#"></a>
+        <img src="GameIconsTorch.png" width="20px">
+        <span class="nav-item">EQUIPMENT</span>
+    </li>
+
+    <li>
+        <a href="#"></a>
+        <img src="GameIconsStrong.png" width="20px">
+        <span class="nav-item"> FEATS </span>
+
+    </li>
+
+    <li>
+        <a href="#"></a>
+        <img src="SimpleIconsRoll20.png" width="20px">
+        <span class="nav-item"> GAME MASTERY </span>
+
+    </li>
+
+    <li>
+
+    <a href="#"></a>
+        <img src="FormkitList.png" width="20px">
+        <span class="nav-item">RULES</span>
+    </li>
+
+    <li>
+        <a href="#"></a>
+        <img src="MdiStar.png" width="20px">
+        <span class="nav-item">SETTING</span>
+    </li>
+
+    <li>
+        <a href="#"></a>
+        <img src="GameIconsWizardStaff.png" width="20px">
+        <span class="nav-item">SPELLS/RITUALS</span>
+
+    </li>
+    <li>
+        <a href="#"></a>
+        <img src="IconamoonQuestionMarkCircleBold.png" width="20px">
+        <span class="nav-item">ABOUT THE ARCHIVES</span>
+    </li>
+
+
+</ul>
+
+</div>
+
+
         
     </nav>
     <main>
@@ -93,12 +162,11 @@ way. Please enjoy the newly remastered Archives of Nethys!
 
 <script>
 
-let btn=document.querySelector('btn');
+let btn = document.querySelector('#btn');
 let sidebar = document.querySelector('.sidebar');
 
 btn.onclick = function () {
-
-    sidebar.classlist.toggle ('active');
+    sidebar.classList.toggle ('active');
 };
 
 </script>
