@@ -48,6 +48,7 @@ li {
 
 main {
 padding-left: 106px;
+padding-top: 50px;
 
 }
 
@@ -143,3 +144,67 @@ color: #0f0f0f;
 }
 
 
+.topbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 6vh;
+    width: 100%;
+    padding: 0.4rem 0.8rem;
+background-color: #292929;
+
+
+}
+
+.topbar #pf2e {
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+    background-color: #292929;
+    top: 0;
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 6vh;
+    width: 100%;
+    padding: 0.4rem 0.8rem;
+background-color: #292929;
+
+}
+.box.active {
+height: 450px;
+width: 13%;
+right: 0;
+
+
+}
+
+.box a #boxes {
+
+  position: relative;
+top: 0;
+opacity: 0;
+
+
+}
+
+.box.active a #boxes {
+position: relative;
+    opacity: 1;
+    margin-top: 60px;
+    align-items: center;
+    
+  
+    
+}
+
+.box.active  ul li {
+position: relative;
+    list-style: none;
+    right: 30px;
+    margin-top: 20px;
+    height: 90px;
+}
