@@ -12,3 +12,5 @@ let box = document.querySelector('.box');
 pf2e.onclick = function () {
     box.classList.toggle('active');
 };
+
+
