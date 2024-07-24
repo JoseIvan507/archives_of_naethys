@@ -1,8 +1,9 @@
 body {
     background-color: #0f0f0f;
+    margin: 0;
 }
 
-main > a > h1 {
+main>a>h1 {
     text-align: center;
     color: white;
 }
@@ -10,7 +11,8 @@ main > a > h1 {
 a {
     color: white;
 }
-main > span {
+
+main>span {
 
     background-color: #522e2c;
     ;
@@ -20,26 +22,28 @@ main > span {
 pre {
     color: white;
 }
+
 h2 {
-background-color: #522e2c;
-;
+    background-color: #522e2c;
+    ;
     color: #cbc18f;
 }
 
 h3 {
 
-    
-    background-color: #cbc18f ;
+
+    background-color: #cbc18f;
     color: black;
 
 }
 
 ul {
 
-    
-    color:black;
+
+    color: black;
 
 }
+
 li {
 
     color: white;
@@ -47,56 +51,44 @@ li {
 
 
 main {
-padding-left: 106px;
-padding-top: 50px;
+    padding-left: 106px;
+    padding-top: 50px;
 
 }
 
 
 .sidebar {
-position: absolute;
-top: 65px;
-left: 0;
-height: 43vh;
-width: 30px;
-background-color: #627d62;
-padding: 0.4rem 0.8rem;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    height: 43vh;
+    width: 30px;
+    background-color: #627d62;
+    padding: 0.4rem 0.8rem;
 
 }
 
 .sidebar.active {
-width: 250px;
-height: 45vh;
+    width: 250px;
+    height: 45vh;
 
-}
-
-  #btn {
-position: absolute;
-top: 10;
-left: 18px;
-width: 60px;
-cursor: pointer;
 }
 
 .sidebar ul li {
-
-    
     position: relative;
     list-style: none;
-   top: -15px;
-   left: -35px;
-   height: 50px;
-    
-    
+    top: -15px;
+    left: -35px;
+    height: 50px;
 }
 
 .sidebar.active ul li {
 
     position: relative;
     list-style: none;
-   top: -50px;
-   left: -15px;
-   height: 0px;
+    top: -50px;
+    left: -15px;
+    height: 0px;
 
 
 }
@@ -104,7 +96,7 @@ cursor: pointer;
 .sidebar ul li a {
 
     display: flex;
-    
+
     text-decoration: none;
     border-radius: 0.8rem;
 
@@ -112,11 +104,11 @@ cursor: pointer;
 
 .sidebar ul li a i {
     position: relative;
-    
-min-width: 50px;
-text-align: center;
-border-radius: 12px;
-line-height: 50px;
+
+    min-width: 50px;
+    text-align: center;
+    border-radius: 12px;
+    line-height: 50px;
 
 }
 
@@ -129,55 +121,52 @@ line-height: 50px;
 }
 
 .sidebar li {
-padding-top: 25%;
-margin-left: -10%;
+    padding-top: 25%;
+    margin-left: -10%;
 
 }
 
 .sidebar ul li a:hover {
-background-color: #cbc18f;
-color: #0f0f0f;
+    background-color: #cbc18f;
+    color: #0f0f0f;
 
 }
 
 
-.topbar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 5vh;
+header {
+    display: flex;
+    position: relative;
+    height: 50px;
     width: 100%;
-    padding: 0.4rem 0.8rem;
-background-color: #292929;
+    background-color: #292929;
 
 
 }
 
-.topbar #pf2e {
-    position: absolute;
-    right: 25px;
+header #pf2e {
     cursor: pointer;
     background-color: #292929;
-    top: 10px;
-width: 230px;
-height: 50px;
+    width: 210px;
+    height: 50px;
+    box-sizing: border-box;
 }
 
 .box {
     position: absolute;
     top: 0;
     right: 0;
-    height: 5vh;
-    width: 240px;
-    
-    padding: 0.4rem 0.8rem;
-background-color: #292929;
+    height: 210px;
+    width: 50px;
+
+    padding: 0 0.8rem;
+    background-color: #292929;
 
 }
+
 .box.active {
-height: 270px;
-width: 240px;
-right: 0;
+    height: 270px;
+    width: 240px;
+    right: 0;
 
 
 
@@ -185,139 +174,128 @@ right: 0;
 
 .box a #boxes {
 
-  position: relative;
-top: 10px;
-opacity: 0;
-margin-top: 70px;
-height: 40px;
-width: 240px;
-right: 50px;
+    position: relative;
+    top: 10px;
+    opacity: 0;
+    margin-top: 70px;
+    height: 50px;
+    width: 210px;
+    right: 50px;
 
 
 }
 
 .box.active a #boxes {
-position: relative;
+    position: relative;
     opacity: 1;
     align-items: center;
-    right: 70px;
+    right: 0px;
     top: 15px;
-    
+
 }
 
-.box.active  ul li {
-position: relative;
+.box.active ul li {
+    position: relative;
     list-style: none;
-    left: 25px;
-top: -40px;
+    
+    top: -70px;
     height: 60px;
 
 
 }
 
-.box  ul li {
+.box ul li {
     position: relative;
-        list-style: none;
-        right: 60px;
-        height: 50px;
+    list-style: none;
+    right: 60px;
+    height: 50px;
 
-        list-style: none;
-    
-    }
+    list-style: none;
 
-    .sidebar #sidebar2 {
-        position: absolute;
-left: 0;
-top: 390px;
-background-color: #64542F;
-width: 30px;
-height: 70vh;
+}
 
-    }
+.sidebar #sidebar2 {
+    position: absolute;
+    left: 0;
+    top: 390px;
+    background-color: #64542F;
+    width: 30px;
+    height: 70vh;
 
-    .sidebar.active #sidebar2{
-        position: absolute;
-top: 430px;
-        width: 250px;
+}
 
-    }
+.sidebar.active #sidebar2 {
+    position: absolute;
+    top: 430px;
+    width: 250px;
 
-    .sidebar #sidebar2 li {
+}
 
-        position: relative;
-        top: 10px;
-        left: -35px;
+.sidebar #sidebar2 li {
 
-
-    }
-
-    .sidebar.active #sidebar2 li {
-position: relative;
-top: -30px;
-left: -15px;
+    position: relative;
+    top: 10px;
+    left: -35px;
 
 
-    }
+}
 
-   .sidebar.active #aon {
-position: relative;
-top: 280px;
-opacity: 1;
+.sidebar.active #sidebar2 li {
+    position: relative;
+    top: -30px;
+    left: -15px;
 
-    }
 
-    .sidebar #aon {
-        position: relative;
-        top: 280px;
-        opacity: 0;
-        
-        
-            }
+}
+
+.sidebar.active #aon {
+    position: relative;
+    top: 280px;
+    opacity: 1;
+
+}
+
+.sidebar #aon {
+    position: relative;
+    top: 280px;
+    opacity: 0;
+
+
+}
 
 .logo {
 
-background-color: #292929;
+    background-color: #292929;
 
 
 
 }
 
 #homeicon {
-
-position: relative;
-left: 60px;
-width: 480px;
-top: 5px;
-
-
-
+    width: 480px;
 }
 
 .topnav {
-    position: absolute;
-    
-    top: 0;
-
-  }
-
-  .topnav >  input {
-
+    width: 400px;
     position: relative;
+    background-color: aqua;
+    box-sizing: border-box;
+}
 
-left: 900px;
-top: 0;
-width: 850px;
-height: 60px;
+.topnav>input {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
 
+.topnav>img {
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
 
-  }
-
-  .topnav >  img {
-
-position: absolute;
-right: -949px;
-width: 65px;
-
-
-  }
-
+pre{
+    overflow-x: scroll;
+}
