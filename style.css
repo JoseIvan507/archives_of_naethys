@@ -56,83 +56,6 @@ main {
 
 }
 
-
-.sidebar {
-    position: absolute;
-    top: 65px;
-    left: 0;
-    height: 43vh;
-    width: 30px;
-    background-color: #627d62;
-    padding: 0.4rem 0.8rem;
-
-}
-
-.sidebar.active {
-    width: 250px;
-    height: 45vh;
-
-}
-
-.sidebar ul li {
-    position: relative;
-    list-style: none;
-    top: -15px;
-    left: -35px;
-    height: 50px;
-}
-
-.sidebar.active ul li {
-
-    position: relative;
-    list-style: none;
-    top: -50px;
-    left: -15px;
-    height: 0px;
-
-
-}
-
-.sidebar ul li a {
-
-    display: flex;
-
-    text-decoration: none;
-    border-radius: 0.8rem;
-
-}
-
-.sidebar ul li a i {
-    position: relative;
-
-    min-width: 50px;
-    text-align: center;
-    border-radius: 12px;
-    line-height: 50px;
-
-}
-
-.sidebar .nav-item {
-    opacity: 0;
-}
-
-.sidebar.active .nav-item {
-    opacity: 1;
-}
-
-.sidebar li {
-    padding-top: 25%;
-    margin-left: -10%;
-
-}
-
-.sidebar ul li a:hover {
-    background-color: #cbc18f;
-    color: #0f0f0f;
-
-}
-
-
 header {
     display: flex;
     position: relative;
@@ -143,124 +66,86 @@ header {
 
 }
 
-header #pf2e {
+.box  #pf2e {
     cursor: pointer;
     background-color: #292929;
     width: 210px;
     height: 50px;
     box-sizing: border-box;
+    
+    
 }
 
-.box {
+.box  {
     position: absolute;
+    right: 5%;
     top: 0;
-    right: 0;
-    height: 210px;
-    width: 50px;
-
-    padding: 0 0.8rem;
     background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    
+
 
 }
 
-.box.active {
-    height: 270px;
-    width: 240px;
-    right: 0;
+.otheritems{
 
+    display: none;
+}
 
+.otheritems.active {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.item  {
+    
+    
+    background-color: #292929;
+    height: 60.29px;
+    width: 208px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
 
 }
 
-.box a #boxes {
+.icon {
 
-    position: relative;
-    top: 10px;
-    opacity: 0;
-    margin-top: 70px;
     height: 50px;
     width: 210px;
-    right: 50px;
-
-
 }
 
-.box.active a #boxes {
-    position: relative;
-    opacity: 1;
-    align-items: center;
-    right: 0px;
-    top: 15px;
-
-}
-
-.box.active ul li {
-    position: relative;
-    list-style: none;
+.item.active {
     
-    top: -70px;
-    height: 60px;
-
-
-}
-
-.box ul li {
-    position: relative;
-    list-style: none;
-    right: 60px;
-    height: 50px;
-
-    list-style: none;
+    
+    background-color: #292929;
+    height: 60.29px;
+    width: 208px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
 
 }
 
-.sidebar #sidebar2 {
-    position: absolute;
-    left: 0;
-    top: 390px;
-    background-color: #64542F;
-    width: 30px;
-    height: 70vh;
+.item img {
 
-}
-
-.sidebar.active #sidebar2 {
-    position: absolute;
-    top: 430px;
-    width: 250px;
-
-}
-
-.sidebar #sidebar2 li {
-
-    position: relative;
-    top: 10px;
-    left: -35px;
-
-
-}
-
-.sidebar.active #sidebar2 li {
-    position: relative;
-    top: -30px;
-    left: -15px;
-
-
-}
-
-.sidebar.active #aon {
-    position: relative;
-    top: 280px;
-    opacity: 1;
-
-}
-
-.sidebar #aon {
-    position: relative;
-    top: 280px;
-    opacity: 0;
-
-
+    height: 46px;
+    width: 188px;
+    align-self: center;
+    
+    
 }
 
 .logo {
@@ -280,6 +165,7 @@ header #pf2e {
     position: relative;
     background-color: aqua;
     box-sizing: border-box;
+
 }
 
 .topnav>input {
@@ -299,3 +185,4 @@ header #pf2e {
 pre{
     overflow-x: scroll;
 }
+

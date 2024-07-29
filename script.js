@@ -7,10 +7,13 @@ btn.onclick = function () {
 
 
 let pf2e = document.querySelector('#pf2e');
-let box = document.querySelector('.box');
+let otheritems = document.querySelector('.otheritems');
+
 
 pf2e.onclick = function () {
-    box.classList.toggle('active');
+    otheritems.classList.toggle('active');
+    
 };
+
 
 
