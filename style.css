@@ -29,7 +29,7 @@ h2 {
     color: #cbc18f;
 }
 
-h3 {
+main h3 {
 
 
     background-color: #cbc18f;
@@ -149,8 +149,9 @@ header {
 }
 
 .logo {
-
+position: relative;
     background-color: #292929;
+    top: 0;
 
 
 
@@ -186,3 +187,65 @@ pre{
     overflow-x: scroll;
 }
 
+.sidebar {
+
+    position: absolute;
+    top: 4.9%;
+    left: 0;
+    background-color: #627d62;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.sidebaritems {
+
+    position: relative;
+    background-color: #627d62;
+    height: 48px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    justify-content: space-evenly;
+
+
+}
+
+.sidebaritems h3 {
+
+position: relative;
+color: azure;
+opacity: 0;
+left: 20px;
+align-self: flex-end;
+
+
+}
+
+
+.sidebaritems img {
+
+width: 22px;
+height: 22px;
+
+}
+
+
+
+.othersidebaritems{
+
+    
+}
+
+.othersidebaritems.active {
+
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    width: 260px;
+    
+}

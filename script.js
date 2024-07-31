@@ -1,8 +1,8 @@
 let btn = document.querySelector('#btn');
-let sidebar = document.querySelector('.sidebar');
+let othersidebaritems = document.querySelector('.othersidebaritems');
 
 btn.onclick = function () {
-    sidebar.classList.toggle('active');
+    othersidebaritems.classList.toggle('active');
 };
 
 
