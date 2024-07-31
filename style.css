@@ -1,11 +1,22 @@
+:root {
+ --main-bg-color: #0f0f0f;
+ --ligth-grey: #0f0f0f;
+}
+
+
 body {
     background-color: #0f0f0f;
     margin: 0;
+    font-family: 'AppleGothic';
+    font-variant: small-caps;
 }
 
 main>a>h1 {
     text-align: center;
     color: white;
+    font-family: 'AppleGothic';
+    font-size: 19.5px;
+    font-variant: small-caps;    
 }
 
 a {
@@ -21,12 +32,17 @@ main>span {
 
 pre {
     color: white;
+    font-size: 15px;
+    font-family: 'Century Gothic Paneuropean', sans-serif;
+                                                
 }
 
 h2 {
     background-color: #522e2c;
     ;
     color: #cbc18f;
+    font-family: 'AppleGothic';
+    font-variant: small-caps;
 }
 
 main h3 {
@@ -34,6 +50,10 @@ main h3 {
 
     background-color: #cbc18f;
     color: black;
+    font-family: 'AppleGothic';
+    font-variant: small-caps;
+    
+
 
 }
 
@@ -47,6 +67,8 @@ ul {
 li {
 
     color: white;
+    font-family: AppleGothic, sans-serif
+    font-size: 15px;
 }
 
 
@@ -91,6 +113,10 @@ header {
 
 
 }
+
+
+
+
 
 .otheritems{
 
@@ -157,9 +183,13 @@ position: relative;
 
 }
 
-#homeicon {
-    width: 480px;
+.logo #homeicon {
+
+    width: 407.72;
+    height: 50px;
+
 }
+
 
 .topnav {
     width: 400px;
@@ -190,12 +220,13 @@ pre{
 .sidebar {
 
     position: absolute;
-    top: 4.9%;
+    top: 7.2%;
     left: 0;
     background-color: #627d62;
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: all 1s ease-out;
 
 
 }
@@ -204,48 +235,98 @@ pre{
 
     position: relative;
     background-color: #627d62;
-    height: 48px;
-    width: 55px;
+    height: 43px;
+    width: 40px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    
-    justify-content: space-evenly;
+    justify-content: space-between;
+    transition: all 1s ease-out;
+    left: 15px;
 
 
 }
 
-.sidebaritems h3 {
+
+
+
+.sidebaritems span {
 
 position: relative;
 color: azure;
-opacity: 0;
+display: inline-block;
+white-space: nowrap;
 left: 20px;
-align-self: flex-end;
+justify-self: center;
+align-self: center;
+opacity: 0;
+
+
 
 
 }
+
+.othersidebaritems.active span {
+
+    position: relative;
+    color: azure;
+    display: inline-block;
+    white-space: nowrap;
+    left: 20px;
+    justify-self: center;
+    align-self: center;
+    opacity: 1;
+    
+    
+    
+    }
 
 
 .sidebaritems img {
 
-width: 22px;
-height: 22px;
+width: 18px;
+height: 18px;
 
 }
 
 
 
 .othersidebaritems{
+    
+    transition: all 1s ease-out;
+    
 
     
 }
 
 .othersidebaritems.active {
 
+
     display: flex;
     flex-direction: column;
-    height: 370px;
+    height: 344px;
     width: 260px;
-    
+    transition: all 1s ease-out;
+}
+
+@font-face {
+    font-family: 'AppleGothic';
+    src: url("applegothic.ttf") ;
+font-style: normal;
+
+
+}
+
+@font-face {
+font-family: 'CenturyGothic';
+src: url("CenturyGothic.ttf");
+font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Gothic';
+    src: url("GOTHIC.TTF");
+    font-style: normal;
 }
