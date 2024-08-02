@@ -1,8 +1,11 @@
 let btn = document.querySelector('#btn');
-let othersidebaritems = document.querySelector('.othersidebaritems');
+let othersidebaritems = document.querySelector('.othersidebaritems')
+let secondarysidebar = document.querySelector('.secondarysidebar');
 
 btn.onclick = function () {
-    othersidebaritems.classList.toggle('active');
+    othersidebaritems.classList.toggle('active')
+    secondarysidebar.classList.toggle('active')
+    ;
 };
 
 
